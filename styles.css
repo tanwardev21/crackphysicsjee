@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #a99aff 0%, #fecfef 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff008c;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #0000dc;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Class XI and XII Pages */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.chapter-list {
+    margin-top: 30px;
+}
+
+.chapter-list a {
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    background: #e0c3c3;
+    color: rgb(25, 150, 62);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.chapter-list a:hover {
+    background: #f0040476;
+}
+
+/* Resources Page */
+.resources {
+    margin-top: 50px;
+}
+
+.resources div {
+    margin-bottom: 30px;
+}
+
+.resources h2 {
+    font-size: 1.5rem;
+    color: #0048ff;
+    margin-bottom: 15px;
+}
+
+.resources a {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    blockquote {
+        font-size: 0.9rem;
+    }
+}
